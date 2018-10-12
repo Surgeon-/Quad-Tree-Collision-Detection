@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Postavka">
+      <UniqueIdentifier>{a3306644-6496-45f0-8787-70354ebf9df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QuadTreeGeneral">
+      <UniqueIdentifier>{d2a23a60-107e-4741-aa32-8ecb050ae7b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QuadTreeRegular">
+      <UniqueIdentifier>{6b4e038e-daca-4d2a-87dc-18f107d1e623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QuadTreeMultithr">
+      <UniqueIdentifier>{0ee55861-10fd-4019-b033-4db003be8fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Miscellaneous">
+      <UniqueIdentifier>{7ca8dcac-18f6-4dd3-85ad-ea740bfa5fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QuadTreeRegular">
+      <UniqueIdentifier>{8a48f61f-f511-4565-8792-8b26985e64ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QuadTreeMultithr">
+      <UniqueIdentifier>{8a4e9de3-3211-4aeb-a1bb-8763464d7899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QuadTreeGeneral">
+      <UniqueIdentifier>{a02d6d3b-140c-49ac-8cd4-172007a12d75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>Source Files\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="NewMain.cpp">
+      <Filter>Source Files\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTreeNode.cpp">
+      <Filter>Source Files\QuadTreeRegular</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTreeEntity.cpp">
+      <Filter>Source Files\QuadTreeGeneral</Filter>
+    </ClCompile>
+    <ClCompile Include="MTQuadTreeDomain.cpp">
+      <Filter>Source Files\QuadTreeMultithr</Filter>
+    </ClCompile>
+    <ClCompile Include="MTQuadTreeNode.cpp">
+      <Filter>Source Files\QuadTreeMultithr</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTreeDomain.cpp">
+      <Filter>Source Files\QuadTreeRegular</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BoundingBox.hpp">
+      <Filter>Header Files\Postavka</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericPtr.hpp">
+      <Filter>Header Files\Postavka</Filter>
+    </ClInclude>
+    <ClInclude Include="Semaphore.hpp">
+      <Filter>Header Files\Postavka</Filter>
+    </ClInclude>
+    <ClInclude Include="MTQuadTreeDomain.hpp">
+      <Filter>Header Files\QuadTreeMultithr</Filter>
+    </ClInclude>
+    <ClInclude Include="MTQuadTreeNode.hpp">
+      <Filter>Header Files\QuadTreeMultithr</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTreeEntity.hpp">
+      <Filter>Header Files\QuadTreeGeneral</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTreeNode.hpp">
+      <Filter>Header Files\QuadTreeRegular</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTreeDomain.hpp">
+      <Filter>Header Files\QuadTreeRegular</Filter>
+    </ClInclude>
+    <ClInclude Include="Collisions-Module.hpp">
+      <Filter>Header Files\Postavka</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Notes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+
+STUB, PEP, TODO
+(stub, possible error place, to do)
+//-----------------------------------
+
+Disable tree moving/copying
+
+***
+HWND hWnd = GetConsoleWindow();
+ShowWindow( hWnd, SW_HIDE );
+***
+
+(Maxdep, Maxobj) = (8, 8) -- Good combination
+
+DOMAIN_WIDTH / (2^maxdep) > 3 * [average instance size] -- recommended dimensions
